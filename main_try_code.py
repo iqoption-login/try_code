@@ -7,12 +7,14 @@ class TryCode:
         self.y = y
         
     def sum(self):
-        return self.x + self.y
+        z = str(self.x + self.y)
+        return f'Your Sum is {z}'
+        
         
     def hello(self, name):
         expo = self.x**self.y
-        print(f'Hello {name} you have expo {expo}')
-        
+        print(f'Salut {name} you have expo {expo}')
+        print("C'est du salut car on paroe Français")
         
 if __name__ == "__main__":
     
