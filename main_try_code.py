@@ -14,7 +14,7 @@ class TryCode:
     def hello(self, name):
         expo = self.x**self.y
         print(f'Salut {name} you have expo {expo}')
-        print("C'est du salut car on paroe Français")
+        print("C'est du salut car on parle Français")
         
 if __name__ == "__main__":
     
