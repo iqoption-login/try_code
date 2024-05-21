@@ -1492,9 +1492,11 @@ def manage(test_nbr,
 	y_pred = model.predict(X_test)
 
 	y_pred = [item[0] for item in y_pred]
+	length_y_preds = len(y_pred)
 	y_pred_item = y_pred[0]
 	y_pred_item_float = float(y_pred_item)
 
+	print_style(f'length_y_preds {length_y_preds}', color = informative_color)
 	print_style(f'y_pred_item : {y_pred_item}', color = informative_color)
 	print_style(f'type of y_pred_item : {type(y_pred_item)}', color = informative_color)
 	print_style(f'y_pred_item_float : {y_pred_item_float}', color = informative_color)
